@@ -4,6 +4,12 @@ class Garage:
         self.__area = area
         self.__vehicles = []
 
+    def add_vehicle(self, vehicle):
+        self.__vehicles.append(vehicle)
+
+    def get_vehicles(self):
+        return self.__vehicles
+
     def get_name(self):
         return self.__name
 
@@ -15,12 +21,3 @@ class Garage:
 
     def set_area(self, area):
         self.__area = area
-
-    def add_vehicle(self, vehicle):
-        self.__vehicles.append(vehicle)
-
-    def display_vehicles(self):
-        print(f"Vehicles in {self.__name} Garage:")
-        print("Plate Number\tBrand\tYear\tColor")
-        for vehicle in self.__vehicles:
-            print("vehicle.get_plate_number()}\t{vehicle.get_brand()}\t{vehicle.get_year()}\t{vehicle.get_color()}")

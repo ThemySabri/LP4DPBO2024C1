@@ -1,8 +1,9 @@
 from Vehicle import Vehicle
 
+
 class Car(Vehicle):
-    def __init__(self, plate_number, brand, year, color, num_seats, num_doors):
-        super().__init__(plate_number, brand, year, color)
+    def __init__(self, license_plate, brand, year, color, num_seats, num_doors):
+        super().__init__(license_plate, brand, year, color)
         self.__num_seats = num_seats
         self.__num_doors = num_doors
 

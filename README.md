@@ -13,3 +13,5 @@ Aamiin.
 ## Alur Program
 
 ## Screenshots
+
+![Run Python](image.png)

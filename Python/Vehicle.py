@@ -1,15 +1,15 @@
 class Vehicle:
-    def __init__(self, plate_number, brand, year, color):
-        self.__plate_number = plate_number
+    def __init__(self, license_plate, brand, year, color):
+        self.__license_plate = license_plate
         self.__brand = brand
         self.__year = year
         self.__color = color
 
-    def get_plate_number(self):
-        return self.__plate_number
+    def get_license_plate(self):
+        return self.__license_plate
 
-    def set_plate_number(self, plate_number):
-        self.__plate_number = plate_number
+    def set_license_plate(self, license_plate):
+        self.__license_plate = license_plate
 
     def get_brand(self):
         return self.__brand
